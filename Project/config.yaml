@@ -1,0 +1,11 @@
+IN_FILE_NAME: primers.tsv
+OUT_FILE_NAME: primers_filtered.tsv
+CRITERIA:
+  LENGTH:
+    MIN: 19
+    MAX: 30
+  TM:
+    MIN: 55
+    MAX: 68
+  INOSINE: False  # Accept primers with inosine
+  MAX_AMB_COMB: 8  # Max number of possible combinations to accept ambiguous primer
