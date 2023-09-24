@@ -1,5 +1,7 @@
-IN_FILE_NAME: primers.tsv
-OUT_FILE_NAME: primers_filtered.tsv
+IN_FILE_NAME: primers.csv
+OUT_FLAT_FILE_NAME: primers_filtered.tsv
+OUT_EXCEL_FILE_NAME: primers_filter.xlsx
+SHEET_NAME: Primers
 CRITERIA:
   LENGTH:
     MIN: 19
